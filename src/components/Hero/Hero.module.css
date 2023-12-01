@@ -1,0 +1,8 @@
+.hero {
+  @apply text-white;
+}
+.hero .main_container {
+  @apply w-full max-w-[800px] h-screen;
+  @apply mt-[-96px] mx-auto;
+  @apply flex flex-col justify-center text-center ;
+}

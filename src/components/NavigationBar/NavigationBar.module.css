@@ -1,0 +1,16 @@
+.navigation {
+  @apply text-white font-semibold;
+  @apply w-full max-w-[1240px] h-24;
+  @apply flex justify-between items-center px-4 mx-auto;
+}
+
+.mobile_menu {
+  @apply fixed top-0 left-0;
+  @apply w-1/2 min-w-[320px] h-full p-4;
+  @apply border-r border-gray-900 bg-[#000300] uppercase;
+  @apply transition-all duration-500;
+}
+
+.menu_closed {
+  @apply left-[-150%];
+}
