@@ -11,12 +11,12 @@ const Newsletter: React.FC = () => {
         <div>
           <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-2">
             <input className="p-3 flex w-full rounded-md text-black" type="email" placeholder="Enter Email" />
-            <button className="bg-[#00df9a] text-black hover:text-white w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 transition-all duration-300">
+            <button className="bg-accent text-black hover:text-white w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 transition-all duration-300">
               Notify Me
             </button>
           </div>
           <p>
-            We care bout the protection of your data. Read our <span className="text-[#00df9a]">Privacy Policy.</span>
+            We care bout the protection of your data. Read our <span className="text-accent">Privacy Policy.</span>
           </p>
         </div>
       </div>

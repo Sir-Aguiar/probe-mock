@@ -1,11 +1,12 @@
 import React from "react";
 import { FaDribbbleSquare, FaFacebookSquare, FaGithubSquare, FaInstagram, FaTwitterSquare } from "react-icons/fa";
+import logo from "../../assets/logo.png";
 
 const Footer: React.FC = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#00df9a]">PROBE</h1>
+        <img src={logo} className="max-w-[200px]" />
         <p className="py-4">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero
           reiciendis, blanditiis accusantium.

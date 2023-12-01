@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./NavigationBar.module.css";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import logo from "../../assets/logo.png"
 const NavigationBar: React.FC = () => {
   const [isListOpen, setListOpen] = useState(false);
 
@@ -10,7 +11,7 @@ const NavigationBar: React.FC = () => {
 
   return (
     <nav className={styles.navigation}>
-      <h1 className="uppercase text-3xl font-bold text-[#00df9a]">Probe</h1>
+      <img src={logo} className="max-w-[200px]"/>
       <ul className="hidden md:flex">
         <li className="p-4 cursor-not-allowed">Home</li>
         <li className="p-4 cursor-not-allowed">Company</li>
@@ -23,7 +24,7 @@ const NavigationBar: React.FC = () => {
       </button>
 
       <div className={`${styles.mobile_menu} ${!isListOpen && styles.menu_closed}`}>
-        <h1 className="uppercase text-3xl font-bold text-[#00df9a] m-4">Probe</h1>
+        <h1 className="uppercase text-3xl font-bold text-accent m-4">Probe</h1>
         <ul>
           <li className="p-4 border-b border-gray-600 cursor-not-allowed">Home</li>
           <li className="p-4 border-b border-gray-600 cursor-not-allowed">Company</li>

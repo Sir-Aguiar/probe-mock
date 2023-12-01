@@ -3,6 +3,8 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: { accent: "#7B66FF" },
+
       fontFamily: {
         Montserrat: ["Montserrat", " sans-serif"],
       },
