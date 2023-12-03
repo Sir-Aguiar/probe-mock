@@ -7,7 +7,7 @@
 .mobile_menu {
   @apply fixed top-0 left-0;
   @apply w-1/2 min-w-[320px] h-full p-4;
-  @apply border-r border-gray-900 bg-[#000300] uppercase;
+  @apply border-r border-gray-900 bg-black-smooth uppercase;
   @apply transition-all duration-500;
 }
 

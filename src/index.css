@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body {
-  background-color: #000300;
-  @apply font-Montserrat;
+  @apply font-Montserrat bg-black-smooth;
 }
 
